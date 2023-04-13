@@ -28,6 +28,8 @@ struct ListView: View {
                         
                         TextField("Enter your mood", text:$newItemDescription )
                         Spacer()
+                        Spacer()
+
                     }
                     
                     Button(action: {
